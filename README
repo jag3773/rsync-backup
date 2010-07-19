@@ -1,0 +1,3 @@
+The rsync-backup script syncronizes the home directory with the backup directory and puts backups of changed and deleted files into a folder with the current date in the increments directory. The script creates a full log in reStructuredText format as well as a quick stats file that just lists the size of each increments directory.  This quick stats file is great if you are running low on disk space and need to prune some increments.
+
+The engine of the backup is rsync, so you will need to install that separately for the script to work. You may find that here: http://www.samba.org/rsync/
